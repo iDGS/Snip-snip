@@ -4,7 +4,7 @@ Put file in `/site/addons/SnipSnip/` as `SnipSnipModifier.php`
 
 Use as, e.g., `{{ content|snip_snip:50 }}{{# NB. ending ellipsis and [MORE] etc. edited w/in snip_snip itself  #}}`
 
-Note that I DID NOT WRITE THE ORIGINAL, which was named `word_truncate`. I'd give credit to whoever did, if I could only remember where I got it!
+Note that I DID NOT WRITE THE ORIGINAL, which under Statamic v1 was named `word_truncate`. I'd give credit to whoever did, if I could only remember where I got it!
 
 Note also that I hacked the code to include my own ellipsis `…` and `[MORE]` code; so you should likewise modify it to suit YOUR OWN needs.
 
