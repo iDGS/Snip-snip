@@ -2,7 +2,7 @@
 
 Snip-snip works under Statamic v2 to truncate markdown-formatted content at X number of words (e.g., 50), and close any open tags, so un-closed formatting does not affect "downwind" summaries.
 
-Put it in `/site/addons/SnipSnip/` as `SnipSnipModifier.php`
+Copy the `SnipSnip` folder to your `site/addons` folder to install.
 
 Use it as, e.g., `{{ content|snip_snip:50 }}{{# NB. ending ellipsis and [MORE] etc. edited w/in snip_snip itself  #}}`
 

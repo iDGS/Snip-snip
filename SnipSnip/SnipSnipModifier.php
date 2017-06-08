@@ -21,7 +21,7 @@ class SnipSnipModifier extends Modifier
 
         $words = preg_split("/[\n\r\t ]+/", $value, $length + 1, PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);
         $output = '';
-        
+
         if (count($words) > $length)
         {
             end($words);
