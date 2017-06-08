@@ -1,4 +1,4 @@
-Truncates markdown-formatted content at X number of words (e.g., 50), and closes any open tags, so formatting does not affect "downwind" summaries.
+Snip-snip truncates markdown-formatted content at X number of words (e.g., 50), and closes any open tags, so formatting does not affect "downwind" summaries.
 
 Put file in `/site/addons/SnipSnip/` as `SnipSnipModifier.php`
 
